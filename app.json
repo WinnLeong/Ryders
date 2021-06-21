@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Ryders",
+    "description": "Ryders is an e-hailing app for users. By using this app, users can call a cab that can bring them to their destination",
+    "slug": "Ryders",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to provide e-hailing services."
+      },
+      "supportsTablet": false,
+      "bundleIdentifier": "com.futuredigitaltechnology.ryders"
+    },
+    "android": {
+      "package": "com.futuredigitaltechnology.ryders"
+    }
+  }
+}
